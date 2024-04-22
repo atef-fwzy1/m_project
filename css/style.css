@@ -772,9 +772,9 @@ body .section-name {
 }
 
 .container .about-me .img {
-    height: 65%;
+    height: 70%;
     width: 50%;
-    background-image: url(../images/4.jpg);
+    background-image: url(../images/11.jpg);
     background-size: cover;
     box-shadow: -23px 15px 34px rgba(46, 229, 157, 0.4);
     border-radius: 12px;
@@ -795,8 +795,8 @@ body .section-name {
     }
 
     .container .about-me .img {
-        height: 50%;
-        width: 85%;
+    height: 70%;
+        width: 59%;
     }
 
     .container .about-me .text {
