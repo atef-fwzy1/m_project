@@ -240,7 +240,7 @@ body {
     background-image: url(../images/07.jpg);
     background-size: cover;
     position: relative;
-    transition-duration: 5s;
+    transition-duration: all 3s;
 }
 
 .main-landin .header {
@@ -616,7 +616,7 @@ body {
 .nav-bullets {
     position: fixed;
     top: 50%;
-    right: 15px;
+    right: 10px;
     transform: translateY(-50%);
     z-index: 20000;
 }
@@ -632,7 +632,7 @@ body {
 @media(max-width:600px) {
     .nav-bullets {
 
-        right: 25px;
+        right: 18px;
     }
 
 }
@@ -772,12 +772,14 @@ body .section-name {
 }
 
 .container .about-me .img {
-    height: 85%;
+    height: 65%;
     width: 50%;
     background-image: url(../images/4.jpg);
     background-size: cover;
     box-shadow: -23px 15px 34px rgba(46, 229, 157, 0.4);
     border-radius: 12px;
+  background-position: center;
+    transition: all 3s;
 }
 
 @media(max-width:600px) {
