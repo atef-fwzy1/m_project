@@ -75,7 +75,6 @@ document.querySelectorAll(".rand-back .bcak span").forEach((e)=>{
          let num =0;
         handelar =  setInterval(()=>{
              document.querySelector(".container .about-me .img").style.backgroundImage =`url("images/${arr_imgs[num]}")`;
-             document.querySelector(".gallery-tophone img").src =`"images/${arr_imgs[num]}")`;
              num++;
              if(num == 13){
                  num =  1;
